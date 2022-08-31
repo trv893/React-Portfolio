@@ -1,0 +1,22 @@
+{
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/"
+        }
+    },
+    "routes":[
+        {
+            "route": "/about",
+            "rewrite": "/"
+          },
+          {
+            "route": "/project",
+            "rewrite": "/"
+          },
+          {
+            "route": "/resume",
+            "rewrite": "/"
+          }
+        
+    ]
+}
